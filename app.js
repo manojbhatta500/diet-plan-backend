@@ -53,6 +53,28 @@ app.listen(port,()=>{
 
 
 // 3 modules
-// videos
+// exercise
 // mental helth 
 // health topics 
+
+
+// every module must have 2 type
+// one article  and one video 
+
+
+/*
+
+article {
+    title:
+    link:
+},
+
+video{
+    title:
+    link:
+}
+
+
+
+
+*/
