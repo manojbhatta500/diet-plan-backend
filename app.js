@@ -1,8 +1,12 @@
 const express = require('express');
 const db = require('./db');
 const app = express();
+var bodyParser = require('body-parser')
 
 
+const exerciseRouter = require('./routes/exercise.route');
+
+app.use(bodyParser.json());
 
 
 
@@ -13,18 +17,30 @@ app.get('/',(req,res)=>{
 });
 
 
-app.get('/exercise',(req,res)=>{
-
-});
+app.use('/exercise',exerciseRouter);
 
 
-app.get('/mentalhelth',(req,res)=>{
 
-});
 
-app.get('/health',(req,res)=>{
 
-});
+
+
+
+
+
+
+
+
+
+
+
+// app.get('/mentalhelth',(req,res)=>{
+
+// });
+
+// app.get('/health',(req,res)=>{
+
+// });
 
 
 
