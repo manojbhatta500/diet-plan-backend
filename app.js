@@ -12,8 +12,9 @@ app.use(bodyParser.json());
 
 
 
+
 app.get('/',(req,res)=>{
-    res.send('lauda');
+    res.send('this is home route, server apis are working');
 });
 
 

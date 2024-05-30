@@ -12,7 +12,11 @@ const exersieArticleSchema = new mongoose.Schema({
 });
 
 
-const exerciseArticleModel = mongoose.model('exerciseArticleModel',exersieArticleSchema);
+ const exerciseArticleModel = mongoose.model('exerciseArticleModel',exersieArticleSchema);
 
 
 module.exports = exerciseArticleModel;
+
+
+
+
