@@ -14,7 +14,6 @@ app.get('/',(req,res)=>{
     res.send('this is home route, server apis are working');
 });
 
-
 app.use('/exercise',exerciseRouter);
 
 app.use('/mental',mentalRouter);

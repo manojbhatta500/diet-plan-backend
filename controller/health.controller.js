@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const healthArticleModel = require('../module/healthArticleModel');
-const healthVideoModel = require('../module/healthVideoModel');
+const healthArticleModel = require('../model/healthArticleModel');
+const healthVideoModel = require('../model/healthVideoModel');
 
 
 async function getArticle(req,res){

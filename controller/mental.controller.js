@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const mentalArticleModel = require('../module/mentalArticleModel');
-const mentalVideoModel = require('../module/mentalVideoModel');
+const mentalArticleModel = require('../model/mentalArticleModel');
+const mentalVideoModel = require('../model/mentalVideoModel');
 
 
 

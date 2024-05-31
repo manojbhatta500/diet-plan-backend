@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const ExerciseArticleModel = require('../module/exerciseArticleModel');
-const ExerciseVideoModel = require('../module/exerciseVideoModel');
+const ExerciseArticleModel = require('../model/exerciseArticleModel');
+const ExerciseVideoModel = require('../model/exerciseVideoModel');
 
 async function getArticle(req,res){
     console.log('get article function called');
