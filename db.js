@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 
-const localMongoDbUrl = 'mongodb://127.0.0.1:27017/dietplan';
+// const localMongoDbUrl = 'mongodb://127.0.0.1:27017/dietplan';
 
-mongoose.connect(localMongoDbUrl,{});
+mongoose.connect(process.env.MONGODB_URI,{});
 
 
 const db = mongoose.connection;
